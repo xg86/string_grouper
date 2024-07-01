@@ -13,7 +13,6 @@ from sparse_dot_topn_for_blocks import awesome_cossim_topn
 from topn import awesome_hstack_topn
 from functools import wraps
 
-
 DEFAULT_NGRAM_SIZE: int = 3
 DEFAULT_TFIDF_MATRIX_DTYPE: type = np.float32   # (only types np.float32 and np.float64 are allowed by sparse_dot_topn)
 DEFAULT_REGEX: str = r'[,-./]|\s'
